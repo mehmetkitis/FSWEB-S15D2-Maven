@@ -23,7 +23,7 @@ public class StringSet {
                 " The published version of Alice's Adventures in Wonderland is about twice the length of " +
                 "Alice's Adventures Under Ground and includes episodes, such as the Mad Tea-Party, " +
                 "that did not appear in the manuscript. The only known manuscript copy of Under Ground " +
-                "is held in the British Library. Macmillan published a facsimile of the manuscript in 1886. ";
+                "is held in the British Library. Macmillan published a facsimile of the manuscript in 1886.";
         String[] words=text.toLowerCase().replaceAll("[.]+","").replaceAll("[!]+","").
                 replaceAll("[?]+","").replaceAll("[0-9]+","").
                 replaceAll("[,]+","").replaceAll("[']+","").replaceAll("[—]+"," ").
